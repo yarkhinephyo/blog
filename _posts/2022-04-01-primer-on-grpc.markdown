@@ -58,5 +58,3 @@ _Image taken from https://www.ionos.com/_
 <ins>Unreadability of protocol buffers</ins>: As the protocol buffer is a binary format, data is not human-readable unlike JSON/XML. Developers require additional tools to perform debugging.
 
 <ins>Lack of developer tooling</ins>: Most developer tools are still designed for HTTP/1.1.
-
-<ins>No edge caching</ins>: gRPC calls use the POST method
