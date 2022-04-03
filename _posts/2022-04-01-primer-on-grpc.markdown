@@ -3,6 +3,7 @@ layout: post
 title:  "Primer on gRPC"
 date:   2022-04-01 11:13:41 +0800
 category: Notes
+tags: Networking
 ---
 
 ## Resources
@@ -16,7 +17,7 @@ category: Notes
 
 ### Problems with client libaries
 
-For a client to communicate with a server with a communication protocol, we need a client library. It can be of any type such as REST/SOAP but at the very least, we need something that understands the protocol. For example in HTTP, a client library needs to understand ALPN and establish TLS connection. There are many client libraries for each language and they are difficult to maintain. For example in Python, the application developers can simply `import requests` but the library itself still requires a maintainence in the background. If the client libraries are no longer maintained actively to keep up with new protocols, there will be many problems for projects that depend on them.
+For a client to communicate with a server with a communication protocol, we need a client library. It can be of any type such as REST/SOAP but at the very least, we need something that understands the protocol. For example in HTTP, a client library needs to understand ALPN and establish TLS connection. There are many client libraries for each language and they are difficult to maintain. For example in Python, the application developers can simply `import requests` but the library itself still requires maintainence in the background. If the client libraries are no longer maintained actively to keep up with new protocols, there will be many problems for projects that depend on them.
 
 ### gRPC
 
@@ -43,13 +44,13 @@ message SearchRequest {
 
 <ins>HTTP/2</ins>: The current gRPC implementation utilizes HTTP/2 as the underlying mechanism which provides multiple streams along a single TCP connection. This solves the head-of-line blocking issue of HTTP/1.1 thus packets will generally be transport faster. With the multiplexing mechanism of HTTP/2, gRPC also allows cancellation of requests. Unlike REST APIs, cancellation of request can propagate to the server to reduce any unnecessary workload.
 
-![HTTP/2]({{ site.url | append: site.baseurl }}/assets/2022-04-01-1.jpg)
+![HTTP/2]({{ site.url | append: site.baseurl }}/assets/img/2022-04-01-1.jpg)
 _Image taken from wallarm.com_
 
 <ins>Various communication modes</ins>: Unlike traditional REST APIs, gRPC provides multiple modes of communications. Unary RPC sends a single request to get a single response. Server streaming RPC returns a stream of messages in response to a client request. Client streaming RPC sends a stream of messages to the server for a single response. Bidirectional streaming RPC provides two independent streams for the client and server to stream messages.
 
-![gRPC modes]({{ site.url | append: site.baseurl }}/assets/2022-04-01-2.jpg)
-_Image taken from https://www.ionos.com/_
+![gRPC modes]({{ site.url | append: site.baseurl }}/assets/img/2022-04-01-2.jpg)
+_Image taken from ionos.com_
 
 ### What gRPC cannot solve
 
