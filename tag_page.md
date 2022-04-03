@@ -20,4 +20,4 @@ permalink: tag-page.html
 {% endfor %}
 </div>
 
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/{{ include.content }}"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/delete-posts-not-in-query-string.js"></script>
