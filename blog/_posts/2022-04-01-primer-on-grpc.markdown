@@ -44,13 +44,13 @@ message SearchRequest {
 
 <ins>HTTP/2</ins>: The current gRPC implementation utilizes HTTP/2 as the underlying mechanism which provides multiple streams along a single TCP connection. This solves the head-of-line blocking issue of HTTP/1.1 thus packets will generally be transport faster. With the multiplexing mechanism of HTTP/2, gRPC also allows cancellation of requests. Unlike REST APIs, cancellation of request can propagate to the server to reduce any unnecessary workload.
 
-![HTTP/2]({{ site.url | append: site.baseurl }}/assets/img/2022-04-01-1.jpg)
+![HTTP/2]({{ site.baseurl }}/assets/img/2022-04-01-1.jpg)
 
 _Image taken from wallarm.com_
 
 <ins>Various communication modes</ins>: Unlike traditional REST APIs, gRPC provides multiple modes of communications. Unary RPC sends a single request to get a single response. Server streaming RPC returns a stream of messages in response to a client request. Client streaming RPC sends a stream of messages to the server for a single response. Bidirectional streaming RPC provides two independent streams for the client and server to stream messages.
 
-![gRPC modes]({{ site.url | append: site.baseurl }}/assets/img/2022-04-01-2.jpg)
+![gRPC modes]({{ site.baseurl }}/assets/img/2022-04-01-2.jpg)
 
 _Image taken from ionos.com_
 
