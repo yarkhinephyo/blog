@@ -23,13 +23,17 @@ email: yarkhinephyo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts on tech and random things that I read. For my future self with goldfish memory.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "yarkhinephyo.github.io"
 github_username: yarkhinephyo
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+exclude:
+  - .jekyll-cache/
+  - _site/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
