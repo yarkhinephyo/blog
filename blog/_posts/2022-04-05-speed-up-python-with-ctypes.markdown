@@ -3,14 +3,14 @@ layout: post
 title: "Speed Up Python With Ctypes"
 date: 2022-04-05 10:00:00 +0800
 category: Notes
-tags: Python C
+tags: Python C Concurrency
 ---
 
 ## Resources
 
 1. [Ctypes Made Easy by Dublin User Group](https://www.youtube.com/watch?v=p_LUzwylf-Y&list=FLQyA0IDUNh2fQuGTZ2CEjug&index=1&t=506s)
 2. [Bypassing GIL with ctypes by Christopher Swenson](http://caswenson.com/2009_06_13_bypassing_the_python_gil_with_ctypes.html)
-3. [Python documentation](https://docs.python.org/3/library/ctypes.html)
+3. [Python ctypes documentation](https://docs.python.org/3/library/ctypes.html)
 
 ## Thoughts
 
