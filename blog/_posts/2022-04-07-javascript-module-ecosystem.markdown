@@ -4,6 +4,7 @@ title: "JavaScript Module Ecosystem"
 date: 2022-04-07 11:02:00 +0800
 category: Notes
 tags: JavaScript
+excerpt: Quick history of JS modules from IIFE to ES6.
 ---
 
 ## Resources

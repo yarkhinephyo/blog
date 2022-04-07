@@ -4,6 +4,7 @@ title: "Generators - The Beginning of Asynchronicity in Python"
 date: 2022-04-03 17:00:00 +0800
 category: Notes
 tags: Python Concurrency
+excerpt: How Python generators are related to the async-await keywords.
 ---
 
 ## Resources
@@ -142,7 +143,7 @@ Coroutine one doing more work
 Coroutine two doing more work
 {% endhighlight %}
 
-### How coroutines help with asynchronous I/O?
+### How coroutines help with asynchronous I/O
 
 During I/O operations, a synchronous function will block the main thread until the I/O is ready. To carry out asychronous work on a single thread, a good way is for the scheduler to check all the coroutines in the queue and only allow those which are "ready" to run.
 

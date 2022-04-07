@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Primer on gRPC"
-date:   2022-04-01 11:13:41 +0800
+title: "Primer on gRPC"
+date: 2022-04-01 11:13:41 +0800
 category: Notes
 tags: Networking
+excerpt: Why gRPC was invented and its pros and cons.
 ---
 
 ## Resources
