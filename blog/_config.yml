@@ -38,9 +38,12 @@ minima:
   social_links:
     github: yarkhinephyo
     linkedin: yar-khine-phyo
+pagination:
+  enabled: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 exclude:
   - .jekyll-cache/
   - _site/
