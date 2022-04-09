@@ -7,12 +7,10 @@ tags: NLP
 excerpt: Understanding the core feature of transformers.
 ---
 
-## Resources
+### Resources
 
 1. [Series on Attention by Rasa Algorithm Whiteboard](https://www.youtube.com/watch?v=23XUv0T9L5c)
 2. [The Illustrated Transformer by Jay Alammer](https://jalammar.github.io/illustrated-transformer/)
-
-## Thoughts
 
 ### Background
 

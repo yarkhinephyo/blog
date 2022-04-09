@@ -7,14 +7,12 @@ tags: Networking
 excerpt: Why gRPC was invented and its pros and cons.
 ---
 
-## Resources
+### Resources
 
 1. [Hussein's gRPC crash course](https://www.youtube.com/watch?v=Yw4rkaTc0f8)
 2. [HEVO gRPC vs REST](https://hevodata.com/learn/grpc-vs-rest-apis/#D2)
 3. [sConnector's Blog](https://sconnector.dev/blog/in-depth-comparison-of-grpc-quic/)
 4. [gRPC documentation](https://grpc.io/docs/what-is-grpc/core-concepts/)
-
-## Thoughts
 
 ### Problems with client libaries
 

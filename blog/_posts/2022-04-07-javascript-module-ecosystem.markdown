@@ -7,13 +7,11 @@ tags: JavaScript
 excerpt: Quick history of JS modules from IIFE to ES6.
 ---
 
-## Resources
+### Resources
 
 1. [JavaScript Modules by uidotdev](https://www.youtube.com/watch?v=qJWALEoGge4)
 2. [ES6 Modules in the Browser by David Gilbertson](https://david-gilbertson.medium.com/es6-modules-in-the-browser-are-they-ready-yet-715ca2c94d09)
 3. [JavaScript Module Systems Showdown by Auth0](https://auth0.com/blog/javascript-module-systems-showdown/)
-
-## Thoughts
 
 ### IIFE - Initial Concept of JS Modules
 

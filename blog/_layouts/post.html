@@ -25,9 +25,12 @@ layout: default
         {% endfor %}
       {%- endif -%}
       <div class="tag-links">
+        <b>Tags: </b>
         {% assign sorted_tags = page.tags | sort %}
-        <b>Tags</b> | {% for tag in sorted_tags %}
-          <a href="/blog/tag-page.html?tag={{tag}}">{{tag}}</a> | 
+        {% for tag in sorted_tags %}
+          <a href="/blog/tag-page.html?tag={{tag}}">
+            <code><nobr>{{ tag }}</nobr></code>
+          </a>
         {% endfor %}
       </div>
     </p>

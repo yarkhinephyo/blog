@@ -7,14 +7,12 @@ tags: Python Concurrency
 excerpt: How Python generators are related to the async-await keywords.
 ---
 
-## Resources
+### Resources
 
 1. [AsyncIO Event Loop by EdgeDB](https://www.youtube.com/watch?v=E7Yn5biBZ58&list=FLQyA0IDUNh2fQuGTZ2CEjug&index=3)
 2. [AsyncIO by Real Python](https://realpython.com/async-io-python/)
 3. [Yield to Async-await by Mleue](https://mleue.com/posts/yield-to-async-await/)
 4. [Event Loop by Lei Mao](https://leimao.github.io/blog/Python-AsyncIO-Event-Loop/)
-
-## Thoughts
 
 ### Coroutines
 
