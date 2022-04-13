@@ -58,7 +58,7 @@ From the same diagram, we can also see that not all collection of edges result i
 
 ![]({{ site.baseurl }}/assets/img/2022-04-13-5.jpg)
 
-_Image from Princeton CS429 - Increasing σ to idenify larger blobs_
+_Image from Princeton CS429 - Increasing σ to identify larger blobs_
 
 Wait but if the σ is larger, the Laplacian response will be weaker (shown above). Intuitively, if the responses by larger blobs are penalized for their sizes. Does that means the selected features will be mostly tiny?
 
