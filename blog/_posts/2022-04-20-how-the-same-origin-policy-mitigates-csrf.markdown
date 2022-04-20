@@ -40,11 +40,12 @@ It prevents a malicious website from accessing another website's resources such 
 Even though the policy prevents cross-origin <ins>access</ins> of resources, it does not prevent the requests from being sent.
 
 In the _Bank XYZ_ example, a `GET` request with relevant cookies triggers the server to transfer the funds before returning the 200 OK response.
-Therefore, the hyperlink can still trigger the transfer of funds and the same-origin-policy alone cannot prevent CSRF attacks.
+As shown in the diagram below, the same-origin policy only prevents the access of resouces, which in this case is reading the HTTP response.
+Since the request (with cookies) can still be sent, the hyperlink can still trigger the transfer of funds.
 
 ![GET request sequence]({{ site.baseurl }}/assets/img/2022-04-20-1.jpg)
 
-_Image by Author - The cross-origin access of HTTP response (Step 3) is prevented_
+_Image by Author - The policy would only prevent a cross-origin access of HTTP response (Step 3)_
 
 **Note**: For more complex HTTP requests, a preflight `OPTIONS` request is sent beforehand to check for relevant [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers.
 In that scenario, an unexpected cross-origin request will not reach _Bank XYZ's_ website at all.
