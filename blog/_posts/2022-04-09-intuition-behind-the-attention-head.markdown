@@ -3,7 +3,7 @@ layout: post
 title: "Intuition Behind the Attention Head"
 date: 2022-04-09 14:20:00 +0800
 category: Notes
-tags: NLP
+tags: NLP Data-Science
 excerpt: Understanding the core feature of transformers.
 ---
 

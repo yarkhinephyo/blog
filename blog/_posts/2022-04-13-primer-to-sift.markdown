@@ -3,7 +3,7 @@ layout: post
 title: "Primer to Scale-invariant Feature Transform"
 date: 2022-04-13 09:30:00 +0800
 category: Notes
-tags: Computer-Vision
+tags: Computer-Vision Software-Engineering
 excerpt: Represent images as features that are insensitive to scale and orientation.
 ---
 

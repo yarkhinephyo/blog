@@ -3,7 +3,7 @@ layout: post
 title: "How the Same-Origin Policy Mitigates CSRF"
 date: 2022-04-20 09:30:00 +0800
 category: Notes
-tags: Other
+tags: Software-Engineering
 excerpt: And how it doesn't.
 ---
 

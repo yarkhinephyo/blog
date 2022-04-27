@@ -3,7 +3,7 @@ layout: post
 title: "Git Submodules Cheatsheet"
 date: 2022-04-17 00:30:00 +0800
 category: Notes
-tags: Other
+tags: Software-Engineering
 excerpt: My own 2 minute refresher on Git Submodules.
 ---
 

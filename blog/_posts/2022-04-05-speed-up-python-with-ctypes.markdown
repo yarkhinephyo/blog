@@ -3,7 +3,7 @@ layout: post
 title: "Speed Up Python With Ctypes"
 date: 2022-04-05 10:00:00 +0800
 category: Notes
-tags: Python C Concurrency
+tags: Python C Concurrency Software-Engineering
 excerpt: Leverage multi-threading in CPU-bound Python applications.
 ---
 

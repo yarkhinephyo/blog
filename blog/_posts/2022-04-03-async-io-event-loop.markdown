@@ -3,7 +3,7 @@ layout: post
 title: "Generators - The Beginning of Asynchronicity in Python"
 date: 2022-04-03 17:00:00 +0800
 category: Notes
-tags: Python Concurrency
+tags: Python Concurrency Software-Engineering
 excerpt: How Python generators are related to the async-await keywords.
 ---
 
